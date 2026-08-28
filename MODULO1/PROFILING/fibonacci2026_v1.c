@@ -10,7 +10,7 @@ int fib(int x) {
 
 int main(int argc, char *argv[]) {
 
-  for (size_t i = 0; i < 40; ++i) {
+  for (size_t i = 0; i < 30; ++i) {
     printf("%d\n", fib(i));
   }
   return 0;
