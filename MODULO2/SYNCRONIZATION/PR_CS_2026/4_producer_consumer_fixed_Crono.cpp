@@ -19,7 +19,7 @@ void produce(const int threadId)
             std::cout << "Producer waiting for space..." << std::endl;
             full.wait(mylock1);
         }
-        std::this_thread::sleep_for(std::chrono::seconds(2));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
         ++buffer;
         std::cout << "Buffer size (prod):" << buffer << std::endl;
         empty.notify_one();
@@ -36,7 +36,7 @@ void consume(const int threadId)
             std::cout << "Consumer waiting for elements..." << std::endl;
             empty.wait(mylock2);
         }
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
         --buffer;
         std::cout << "Buffer size (cons):" << buffer << std::endl;
         full.notify_one();

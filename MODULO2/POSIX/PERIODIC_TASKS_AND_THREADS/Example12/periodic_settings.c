@@ -9,7 +9,7 @@
 //  - Code modified by Prof. Gustavo Patino  -
 //    - Real-Time Systems (IEO 2547027) -
 //     - University of Antioquia (UdeA) -
-//      - Medellin, Colombia 2025 -
+//      - Medellin, Colombia 2026 -
 /*************************************************/
 
 #include <sys/time.h>

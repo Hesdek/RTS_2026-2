@@ -13,8 +13,8 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-#define DEBUG_MODE
-#define TIME2SLEEP 1000000	// Time to sleep in us.
+//#define DEBUG_MODE
+#define TIME2SLEEP 5000000	// Time to sleep in us.
 
 void current_time()
 {

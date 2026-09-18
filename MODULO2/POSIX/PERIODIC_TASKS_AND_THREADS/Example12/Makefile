@@ -1,6 +1,6 @@
 # Makefile to compile the Example 11 about Periodic Threads with POSIX Real-Time Extension
 # Written by Gustavo Patino
-# UdeA - Dic. 2022
+# UdeA - 2026
 
 
 CC = gcc
